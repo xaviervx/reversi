@@ -12,7 +12,6 @@ function littleHouse(props) {
         currentPlayer
     } = props
 
-    // console.log(value)
     if (currentHouse % 2 === 0) {
         if ((value === 0)) {
             if ((versus === 0) && (currentPlayer === -1)) {

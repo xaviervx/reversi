@@ -57,7 +57,8 @@ function App() {
 
   function playPc() {
     if (checkValidPlayPass()) {
-       alert('Estou sem jogadas então passei a vez') 
+       alert('Estou sem jogadas então passei a vez')
+       passPlay()
     } else {
       setTimeout(function() {
         let count = 0
