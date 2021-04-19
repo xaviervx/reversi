@@ -1,0 +1,33 @@
+.littleHouse {
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+
+.dark {
+    background-color: #779556;
+}
+
+.clear {
+    background-color: #aec992;
+}
+
+.valid {
+    cursor: pointer;
+}
+
+.valid:hover::after {
+    opacity: .6;
+}
+
+.valid::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid #000;
+    bottom: 5px;
+    left: 5px;
+    opacity: .3;
+}

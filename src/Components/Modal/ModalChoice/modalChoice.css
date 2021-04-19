@@ -1,0 +1,40 @@
+.modalBodyChoice{
+    display: grid;
+    grid-template-rows: auto 125px;
+    row-gap: 10px;
+}
+.modalHeadChoice {
+    text-transform: uppercase;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.choice {
+    font-size: 20px;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    grid-template-rows: auto auto;
+    row-gap: 10px;
+}
+
+.btnChoice {
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+    background: #2e7d32;
+    border-radius: 4px;
+    padding: 4px 1px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 3px 3px 10px -4px rgb(0 0 0 / 74%);
+    -webkit-box-shadow: 3px 3px 10px -4px rgb(0 0 0 / 74%);
+    -moz-box-shadow: 3px 3px 10px -4px rgba(0,0,0,0.74);
+}
+
+.btnChoice:active {
+    box-shadow: none;
+}
